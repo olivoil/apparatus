@@ -6,20 +6,33 @@
     "node": ">=0.2.6"
   },
   "dependencies": {
-    "sylvester": ">= 0.0.8"
+    "sylvester": ">= 0.0.8",
+    "component-inherit": "0.0.3"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "jasmine-node": ">=1.0.26"
   },
   "scripts": {
     "test": "./node_modules/jasmine-node/bin/jasmine-node ."
   },
   "author": "Chris Umbel <chris@chrisumbel.com>",
-  "keywords": ["machine", "learning", "ml", "classifier", "clustering", "bayes", "k-means", "logistic", "regression"],
+  "keywords": [
+    "machine",
+    "learning",
+    "ml",
+    "classifier",
+    "clustering",
+    "bayes",
+    "k-means",
+    "logistic",
+    "regression"
+  ],
   "main": "./lib/apparatus/index.js",
-  "maintainers": [{
-    "name": "Chris Umbel",
-    "email": "chris@chrisumbel.com",
-    "web": "http://www.chrisumbel.com"
-  }]
+  "maintainers": [
+    {
+      "name": "Chris Umbel",
+      "email": "chris@chrisumbel.com",
+      "web": "http://www.chrisumbel.com"
+    }
+  ]
 }

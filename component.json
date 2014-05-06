@@ -1,0 +1,15 @@
+{
+	"name": "apparatus",
+	"main": "index.js",
+	"scripts": [
+		"lib/apparatus/index.js",
+		"lib/apparatus/classifier/classifier.js",
+		"lib/apparatus/classifier/logistic_regression_classifier.js",
+		"lib/apparatus/classifier/bayes_classifier.js",
+		"lib/apparatus/clusterer/kmeans.js"
+	],
+	"dependencies": {
+		"olivoil/sylvester": "^0.2.0",
+		"component/inherit": "*"
+	}
+}
