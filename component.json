@@ -2,6 +2,7 @@
 	"name": "apparatus",
 	"main": "index.js",
 	"scripts": [
+		"index.js",
 		"lib/apparatus/index.js",
 		"lib/apparatus/classifier/classifier.js",
 		"lib/apparatus/classifier/logistic_regression_classifier.js",
